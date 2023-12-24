@@ -1,7 +1,41 @@
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
 
- 
+//  Colors
+$White: hsl(0, 0%, 100%);
+$Light-pink: hsl(275, 100%, 97%);
+$Grayish-purple: hsl(292, 16%, 49%);
+$Dark-purple: hsl(292, 42%, 14%);
+
+.container {
+  border: 2px solid red;
+  width: 60%;
+  margin: 0 auto;
+
+  .questionBtn {
+    width: 100%;
+    padding: 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+
+  .questionBtn:hover {
+    background-color: gray;
+  }
+
+  .answer-container {
+    transition: all .5s ease-in-out;
+    // display: none;
+    height: 0;
+  }
+
+  .answer-container:target {
+    height: 50px;
+  }
+}

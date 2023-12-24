@@ -1,0 +1,15 @@
+
+
+
+Logic:
+
+1) When you click on button, menu drops down with text
+    1-1) When i click on button, the text appears with toggle option through javascript, when i click again, it disappears
+        1-1-1) I have to grab the button and "dropdown-text"
+
+1-2) the display of dropdown-text turns from none to block, followed by animation. 
+
+2) The icon changes from + to - with darker color
+3) You can also close this accordion section and - returns to +
+4) When you click on any other faq section, previously opened one closes
+
