@@ -8,11 +8,11 @@
 section {
   display: flex;
   align-items: center;
-  border: 2px solid green;
   height: 100vh;
   background-image: url("/assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-color: hsl(275, 100%, 97%);
+  background-size: 100%;
 }
 
 .container {
@@ -23,6 +23,7 @@ section {
   background-color: hsl(0, 0%, 100%);
   padding: 1em 2em 0em 2em;
   border-radius: 8px;
+  max-width: 550px;
 }
 .container .star-faq {
   display: flex;
@@ -75,4 +76,32 @@ section {
 
 .active {
   display: block;
+}
+
+@media (min-width: 376px) {
+  section {
+    padding: 2em;
+  }
+  .container {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 540px) {
+  section {
+    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-repeat: no-repeat;
+  }
+  .container {
+    padding-bottom: 1em;
+  }
+  .container .dropdown-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 280px) {
+  section {
+    height: -webkit-fill-available;
+    padding-bottom: 2em;
+    padding-top: 2em;
+  }
 }
