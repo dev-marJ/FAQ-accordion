@@ -9,33 +9,97 @@
 $White: hsl(0, 0%, 100%);
 $Light-pink: hsl(275, 100%, 97%);
 $Grayish-purple: hsl(292, 16%, 49%);
+$Bright-purple: hsl(292, 88%, 48%);
 $Dark-purple: hsl(292, 42%, 14%);
 
+section {
+  display: flex;
+  align-items: center;
+  border: 2px solid green;
+  height: 100vh;
+  background-image: url("/assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: $Light-pink;
+}
+
 .container {
-  border: 2px solid red;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  background-color: $White;
+  padding: 1em 2em 0em 2em;
+  border-radius: 8px;
 
-  .questionBtn {
+  .star-faq {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    margin-top: 0.5em;
+
+    h2 {
+      font-weight: 700;
+      font-size: 2.3rem;
+      color: $Dark-purple;
+    }
+
+    .star {
+      width: 26px;
+    }
+  }
+
+  .question-container {
+    // border: 2px solid green;
+    // margin-bottom: 1em;
+    border-bottom: 1px solid $Light-pink;
+  }
+
+  .question-container:last-child {
+    border-bottom: none;
+  }
+
+  button {
+    text-align: left;
     width: 100%;
-    padding: 1em;
-    border: none;
-    outline: none;
+    // padding-bottom: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $White;
+    outline: none;
+    border: none;
+    color: $Dark-purple;
+    font-size: 1.03rem;
+    font-weight: 600;
+    gap: 0.1em;
+
+    &:hover {
+      color: $Bright-purple;
+    }
   }
 
-
-  .questionBtn:hover {
-    background-color: gray;
-  }
-
-  .answer-container {
-    transition: all .5s ease-in-out;
-    // display: none;
-    height: 0;
-  }
-
-  .answer-container:target {
-    height: 50px;
+  .dropdown-text {
+    display: none;
+    // padding-right: 1.5em;
+    // padding-left: 1.5em;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: $Grayish-purple;
+    line-height: 1.2rem;
+    padding-bottom: 1.5em;
   }
 }
+
+.active {
+  display: block;
+}
+
+// @media (min-width: 1000px) {
+//   section {
+//     background-image: url("./assets/images/background-pattern-mobile.svg");
+
+//   }
+// }
