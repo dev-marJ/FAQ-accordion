@@ -15,7 +15,7 @@ $Dark-purple: hsl(292, 42%, 14%);
 section {
   display: flex;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("/assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-color: $Light-pink;
@@ -98,6 +98,12 @@ section {
   display: block;
 }
 
+@media ((max-width: 1000px) and (orientation: landscape)) {
+  section {
+    height: auto;
+  }
+}
+
 @media (min-width: 376px) {
   section {
     // background-image: url("/assets/images/background-pattern-desktop.svg");
@@ -115,7 +121,6 @@ section {
 @media (min-width: 540px) {
   section {
     background-image: url("/assets/images/background-pattern-desktop.svg");
-    // background-size: 100%;
     background-repeat: no-repeat;
   }
 
@@ -130,9 +135,17 @@ section {
 
 @media (max-width: 280px) {
   section {
-    height: -webkit-fill-available;
     padding-bottom: 2em;
     padding-top: 2em;
   }
+}
 
+@media (min-width: 1000px) {
+  .container {
+    .star-faq {
+      .star {
+        width: 35px;
+      }
+    }
+  }
 }
