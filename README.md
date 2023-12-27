@@ -23,11 +23,11 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 - View the optimal layout for the interface depending on their device's screen size
 
-periodic-acoustics.surge.sh
+
 ### Links
 
 - Solution URL: [GitHub Link](https://github.com/dev-marJ/FAQ-accordion)
-- Live Site URL: [Live Deployment](periodic-acoustics.surge.sh)
+- Live Site URL: [Live Deployment](https://periodic-acoustics.surge.sh/)
 
 ## My process
 
