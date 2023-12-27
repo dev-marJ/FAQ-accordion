@@ -50,8 +50,6 @@ section {
   }
 
   .question-container {
-    // border: 2px solid green;
-    // margin-bottom: 1em;
     border-bottom: 1px solid $Light-pink;
   }
 
@@ -62,7 +60,6 @@ section {
   button {
     text-align: left;
     width: 100%;
-    // padding-bottom: 1em;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     cursor: pointer;
@@ -84,8 +81,6 @@ section {
 
   .dropdown-text {
     display: none;
-    // padding-right: 1.5em;
-    // padding-left: 1.5em;
     font-size: 0.9rem;
     font-weight: 400;
     color: $Grayish-purple;
@@ -106,10 +101,6 @@ section {
 
 @media (min-width: 376px) {
   section {
-    // background-image: url("/assets/images/background-pattern-desktop.svg");
-    // // background-size: 100%;
-    // background-repeat: no-repeat;
-
     padding: 2em;
   }
 
