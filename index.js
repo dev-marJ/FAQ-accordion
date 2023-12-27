@@ -15,14 +15,14 @@ questionBtn.forEach((button, index) => {
           dropdownText.forEach((item, i) => {
             if (i !== index) {
               item.style.display = "none";
-              plusMinusImgs[i].src = "./assets/images/icon-plus.svg";
+              plusMinusImgs[i].src = "/assets/images/icon-plus.svg";
             }
           });
           dropdown.style.display = "block";
-          plusMinusImg.src = "./assets/images/icon-minus.svg";
+          plusMinusImg.src = "/assets/images/icon-minus.svg";
         } else {
           dropdown.style.display = "none";
-          plusMinusImg.src = "./assets/images/icon-plus.svg";
+          plusMinusImg.src = "/assets/images/icon-plus.svg";
         }
       } else {
         dropdown.style.display = "none";
