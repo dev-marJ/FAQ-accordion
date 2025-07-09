@@ -1,4 +1,4 @@
-# Frontend Mentor - FAQ accordion 
+# Frontend Mentor - FAQ Accordion
 
 ![Design preview for the FAQ accordion coding challenge](./design/desktop-preview.jpg)
 
@@ -12,17 +12,18 @@
 
 </div>
 
-<p>&nbsp;</p>  <!-- Adds vertical space -->
+<p>&nbsp;</p>
 
-This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+---
 
+This project is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### The challenge
 
-Users should be able to:
+The main goals were for users to:
 
-- Hide/Show the answer to a question when the question is clicked
-- View the optimal layout for the interface depending on their device's screen size
+- Hide or show the answer to a question by clicking on it.
+- Experience an optimal layout that adapts to their device’s screen size.
 
 ### Links
 
