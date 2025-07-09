@@ -5,7 +5,9 @@
 
 
 
-<h3>Live Site URL: <a href="https://periodic-acoustics.surge.sh/">Live Deployment</a></h3>
+<div align="center" style="margin-bottom: 40px;">
+  <a href="https://periodic-acoustics.surge.sh/"><strong>Live Deployment</strong></a>
+</div>
 
 
 
