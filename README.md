@@ -5,8 +5,8 @@
 
 
 
-<div align="center" style="margin-bottom: 40px;">
-  <a href="https://periodic-acoustics.surge.sh/"><strong>Live Deployment</strong></a>
+<div align="center" style="margin-bottom: 2rem;">
+  <h3><a href="https://periodic-acoustics.surge.sh/"><strong>Live Deployment</strong></a></h3>
 </div>
 
 
